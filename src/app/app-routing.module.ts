@@ -21,8 +21,8 @@ const Routes: Routes = [
 
   },
   {
-    path:'Post',
-    loadChildren: () => import('./pages/post/post.module').then(m => m.PostModule)
+    path:'Posts',
+    loadChildren: () => import('./pages/posts/posts.module').then(m => m.PostModule)
   },
   {
     path:'**',

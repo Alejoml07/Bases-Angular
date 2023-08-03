@@ -24,8 +24,8 @@ export class MenuComponent {
 
     },
     {
-      name : 'Post',
-      path: '/Post'
+      name : 'Posts',
+      path: '/Posts'
 
     }
 
